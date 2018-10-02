@@ -1,0 +1,240 @@
+html {
+  font-family: 'M PLUS 1p', sans-serif;
+  text-rendering: optimizeLegibility;
+  color: white; }
+
+.wrapper {
+  background-color: black; }
+
+/** BUTTON STYLES */
+.btn {
+  background: linear-gradient(#f9c032, #f39131);
+  display: inline-block;
+  border-radius: 2px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-weight: 700; }
+  .btn--sm {
+    padding: .25rem 1.2rem; }
+  .btn--md {
+    padding: .25rem 3rem; }
+  .btn--lg {
+    padding: .5rem 7rem;
+    margin-bottom: 3rem; }
+
+.hero-container {
+  border-bottom: 1px solid white;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 4rem; }
+
+.hero-content {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.hero-banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0; }
+
+.hero-main-content {
+  display: flex;
+  justify-content: space-between; }
+
+.hero__specials {
+  flex: 1; }
+  .hero__specials-heading {
+    color: #f39131;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0; }
+    .hero__specials-heading--sub {
+      color: white;
+      font-weight: 700; }
+    .hero__specials-heading--secondary {
+      color: white;
+      font-weight: 500;
+      font-size: 1rem;
+      margin-top: .1rem;
+      text-transform: uppercase; }
+
+.hero__odds-section {
+  flex: 1;
+  color: white; }
+  .hero__odds-section--2 {
+    margin-top: 1rem; }
+
+.hero__bet {
+  display: flex;
+  justify-content: space-between;
+  margin-top: .5rem; }
+  .hero__bet-name {
+    margin: 0; }
+
+.hero__odds-title {
+  color: #f39131;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+.link {
+  text-decoration: none; }
+  .link:link {
+    color: white; }
+  .link:visited {
+    color: white; }
+  .link:hover {
+    color: white; }
+  .link--white {
+    text-decoration: underline;
+    font-weight: 300; }
+
+.main-content-container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 3rem; }
+
+/******** SIGN-UP SECTION *********/
+.signup-container {
+  color: white;
+  display: flex;
+  padding-bottom: 2rem; }
+
+.signup-item {
+  display: flex;
+  flex: 1; }
+  .signup-item__icon {
+    border: 2px solid #f39131;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 1rem;
+    padding: .25rem; }
+  .signup-item__text {
+    text-transform: uppercase;
+    font-weight: 300; }
+
+.main-odds {
+  display: flex; }
+  .main-odds__container {
+    flex: 1;
+    padding-bottom: 8.5rem; }
+    .main-odds__container--1 {
+      background-image: url(/images/bg-2.jpg);
+      background-size: cover;
+      border-right: 1px solid white; }
+    .main-odds__container--2 {
+      background-image: url(/images/bg-1.jpg);
+      margin-left: 1rem;
+      background-size: cover; }
+  .main-odds__heading {
+    text-transform: uppercase;
+    color: #f39131;
+    font-size: 20px;
+    margin-bottom: 0; }
+  .main-odds__text {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: .5rem; }
+
+.terms-container-outer {
+  background-color: black; }
+
+.terms-container-inner {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 5rem; }
+
+.terms-heading {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 1rem; }
+  .terms-heading--border {
+    border-bottom: 1px solid white; }
+    .terms-heading--border-2 {
+      border-top: 1px solid white;
+      padding: 1rem; }
+  .terms-heading--sub {
+    font-size: 12px;
+    font-weight: 400; }
+
+.terms-content {
+  margin-left: 1rem; }
+
+.terms-text {
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: 1rem; }
+
+.term-item {
+  font-size: 12px; }
+
+.footer-brands-inner {
+  width: 50%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem; }
+
+.footer-brandsitem {
+  flex: 1; }
+
+.footer-brands-heading {
+  font-weight: 300;
+  font-size: 10px;
+  margin-bottom: .25rem; }
+
+.footer-brands-logo {
+  margin-bottom: .5rem; }
+
+.footer-copyright-container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px; }
+
+.footer-copyright-text {
+  font-size: 10px;
+  text-align: center; }
+
+@media only screen and (max-width: 992px) {
+  .hero-main-content {
+    display: block; }
+  .main-odds {
+    display: block; }
+  .main-odds__container--1 {
+    border: none; }
+  .terms-container-inner {
+    text-align: center; } }
+
+@media only screen and (max-width: 767px) {
+  .signup-container {
+    display: block; }
+  .signup-item {
+    justify-content: center; }
+  .main-odds-container {
+    padding-bottom: 0; }
+  .footer-brands-inner {
+    flex-direction: column;
+    text-align: center; } }
+
+@media only screen and (max-width: 479px) {
+  .terms-list {
+    padding-left: 0; } }
+
+@media only screen and (max-width: 320px) {
+  .terms-container-inner {
+    padding-top: 0; } }

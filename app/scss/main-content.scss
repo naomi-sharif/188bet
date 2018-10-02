@@ -1,0 +1,39 @@
+.main-content-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+/******** SIGN-UP SECTION *********/////////
+.signup {
+    &-container {
+        color: $color-white;
+        display: flex;
+        padding-bottom: 2rem;
+    }
+
+    &-item {
+        display: flex;
+        flex: 1;
+
+        &__icon{
+            border: 2px solid $color-primary;
+            width: 50px;
+            height: 50px;
+            font-size: 30px;
+            border-radius: 50px;
+            text-align: center;
+            margin-right: 1rem;
+            padding: .25rem;
+
+        }
+
+        &__text {
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+    }
+
+
+}

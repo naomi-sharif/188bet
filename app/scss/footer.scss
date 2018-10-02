@@ -1,0 +1,118 @@
+/////***** FOOTER BRANDS SECTION ******/////
+.footer-brands {
+    &-inner {
+        width: 50%;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    &item {
+        flex: 1;
+    }
+
+    &-heading {
+        font-weight: 300;
+        font-size: 10px;
+        margin-bottom: .25rem;
+    }
+
+    &-logo {
+        margin-bottom: .5rem;
+    }
+}
+
+//////***** FOOTER COPYRIGHT SECTION ******///////
+.footer-copyright {
+    &-container {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    &-text {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+// @media only screen and (max-width: 1040px) {
+//     .hero-main-content {
+//         display: block;
+//     }
+// }
+
+
+// @mixin bp-lg {
+
+//     @media only screen and (max-width: 1200px) {
+
+//         @content;
+
+//     }
+
+// }
+
+
+    @media only screen and (max-width: 992px) {
+     .hero-main-content {
+        display: block;
+        }
+
+        .main-odds {
+            display: block;
+        }
+
+        .main-odds__container--1 {
+            border: none;
+        }
+
+        .terms-container-inner {
+            text-align: center;
+        }
+    }
+
+
+ @media only screen and (max-width: 767px) {
+    .signup-container {
+        display: block;
+        }
+
+        .signup-item {
+            justify-content: center;
+        }
+
+        .main-odds-container {
+            padding-bottom: 0;
+        }
+
+        .footer-brands-inner {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+
+
+
+
+
+    @media only screen and (max-width: 479px) {
+        .terms-list {
+            padding-left: 0;
+        }
+
+    }
+
+
+
+
+  @media only screen and (max-width: 320px) {
+      .terms-container-inner {
+        padding-top: 0;
+      }
+  }

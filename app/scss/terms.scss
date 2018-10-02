@@ -1,0 +1,47 @@
+.terms {
+    &-container-outer {
+        background-color: black;
+    }
+
+    &-container-inner {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding-top: 5rem;
+    }
+
+    &-heading {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 1rem;
+
+        &--border {
+            border-bottom: 1px solid white;
+
+            &-2 {
+                border-top: 1px solid white;
+                padding: 1rem;
+            }
+        }
+
+        &--sub {
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+
+    &-content {
+        margin-left: 1rem;
+    }
+
+    &-text {
+        font-weight: 300;
+        font-size: 12px;
+        margin-bottom: 1rem;
+    }
+}
+
+.term-item {
+    font-size: 12px;
+}

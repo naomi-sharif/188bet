@@ -1,0 +1,21 @@
+.link {
+    text-decoration: none;
+
+   &:link {
+       color: $color-white;
+   }
+
+   &:visited {
+       color: $color-white;
+   }
+
+   &:hover {
+       color: $color-white;
+   }
+
+   &--white {
+       text-decoration: underline;
+       font-weight: 300;
+   }
+
+}
